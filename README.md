@@ -2,6 +2,7 @@
 
 Callback - 
 function passed as an argument to another function
+function which is to be executed after another function has finished execution.
 
 Types of callbacks - 
 
@@ -50,7 +51,6 @@ const demoPromise= function() {
       console.log("Error:" + errorMsg);
   })
 }
-
 demoPromise();
 
 we use then() for resolve and catch() for reject any promise
