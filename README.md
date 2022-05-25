@@ -35,9 +35,13 @@ asynchronous callbacks are non blocking  :  the higher-order function completes 
 eg:
 
 function printString(){
+
    console.log("Tom"); 
    
-   setTimeout(function()  { console.log("Jacob"); }, 300); 
+   setTimeout(function()  { 
+   
+   console.log("Jacob"); }, 300); 
+   
   console.log("Mark")
   
 }
