@@ -13,12 +13,17 @@ synchronous callbacks are blocking   :   the higher-order function doesn't compl
 eg: 
 
 function greeting(name) {
+
   alert('Hello ' + name);
+  
 }
 
 function processUserInput(callback) {
+
   var name = prompt('Please enter your name.');
+  
   callback(name);
+  
 }
 
 processUserInput(greeting);
