@@ -2,6 +2,7 @@
 
 Callback - 
 function passed as an argument to another function
+
 function which is to be executed after another function has finished execution.
 
 Types of callbacks - 
