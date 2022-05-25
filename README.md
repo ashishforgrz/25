@@ -31,9 +31,12 @@ eg:
 
 function printString(){
    console.log("Tom"); 
+   
    setTimeout(function()  { console.log("Jacob"); }, 300); 
   console.log("Mark")
+  
 }
+
 printString();
 
 The main difference between synchronous and asynchronous callbacks is that synchronous callbacks are executed immediately, whereas the execution of asynchronous callbacks is deferred to a later point in time.
